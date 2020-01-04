@@ -1,4 +1,4 @@
-package whipp.demo.forum;
+package whipp.demo.forumdb;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ForumApplication.class);
+		return application.sources(ForumdbApplication.class);
 	}
 
 }

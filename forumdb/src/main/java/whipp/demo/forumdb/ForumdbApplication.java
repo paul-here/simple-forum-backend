@@ -1,13 +1,13 @@
-package whipp.demo.forum;
+package whipp.demo.forumdb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ForumApplication {
+public class ForumdbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ForumApplication.class, args);
+		SpringApplication.run(ForumdbApplication.class, args);
 	}
 
 }
